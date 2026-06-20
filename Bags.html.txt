@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladies Bags - Moiz Mall</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:Segoe UI,Arial,sans-serif;background:#f5f5f5;color:#222}
+        header{background:#111;color:#fff;padding:18px 8%}
+        nav{display:flex;justify-content:space-between;align-items:center}
+        .logo{font-size:30px;font-weight:bold;text-decoration:none;color:white}
+        .back-btn{color:white;text-decoration:none;background:#444;padding:8px 16px;border-radius:4px}
+        .section{padding:40px 8%}
+        .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+        .card{background:white;border-radius:12px;padding:15px;box-shadow:0 2px 10px rgba(0,0,0,.1);display:flex;flex-direction:column;justify-content:space-between}
+        .img{height:420px;background:#ddd;border-radius:10px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+        .product-details{margin-top:15px;text-align:center}
+        .price{font-size:20px;font-weight:bold;margin:10px 0;color:#111}
+        .desc{font-size:14px;color:#666;line-height:1.4;margin-bottom:15px}
+        .wa-btn{display:block;background:#25D366;color:white;padding:12px;text-decoration:none;border-radius:6px;font-weight:bold;font-size:14px}
+        footer{background:#111;color:#fff;text-align:center;padding:25px;margin-top:40px}
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html" class="logo">Moiz Mall</a>
+        <a href="index.html" class="back-btn">⬅ Back to Home</a>
+    </nav>
+</header>
+
+<section class="section">
+    <h2 style="margin-bottom:10px;font-size:32px;text-align:center;">Ladies Bags</h2>
+    <p style="color:#666;margin-bottom:30px;text-align:center;">WhatsApp For Order: 03085750569</p>
+
+    <div class="products">
+        <!-- BAG 1 -->
+        <div class="card">
+            <div class="img">
+                <img src="bags/Girls Shoulder Bag.jpg" style="width:100%;height:100%;object-fit:cover;" alt="Girls Shoulder Bag">
+            </div>
+            <div class="product-details">
+                <h3>Elegant Leather Shoulder Bag</h3>
+                <p class="price">Rs. 2800</p>
+                <p class="desc">High-quality trendy shoulder bag with adjustable long strap, ideal for daily and formal use.</p>
+                <a class="wa-btn" href="https://wa.me/923085750569?text=Hi,%20I%20want%20to%20order%20Elegant%20Leather%20Shoulder%20Bag" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+
+        <!-- BAG 2 -->
+        <div class="card">
+            <div class="img">
+                <img src="bags/Multicolor Bag.jpg" style="width:100%;height:100%;object-fit:cover;" alt="Multicolor Luxury Handbag">
+            </div>
+            <div class="product-details">
+                <h3>Luxury Multi-Color Handbag</h3>
+                <p class="price">Rs. 3200</p>
+                <p class="desc">Premium luxury multi-color handbag collection available in gorgeous classic combinations.</p>
+                <a class="wa-btn" href="https://wa.me/923085750569?text=Hi,%20I%20want%20to%20order%20Luxury%20Multi-Color%20Handbag" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Moiz Mall - All Rights Reserved
+</footer>
+
+</body>
+</html>
